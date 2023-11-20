@@ -4,4 +4,41 @@ body {
 
 .link {
     font-family: Raleway;
+    font-weight: 700;
+}
+
+.list-link {
+    font-weight: 500;
+}
+
+.header-items {
+    font-weight: 500;
+}
+
+.menu-title1 {
+    font-weight: 900;
+}
+
+.button {
+    font-weight: 700;
+}
+
+.menu-title3 {
+    font-weight: 700;
+}
+
+.list-text {
+    font-weight: 400;
+}
+
+.menu-title2 {
+    font-weight: 700;
+}
+
+.footer-items {
+    font-weight: 400;
+}
+
+.logo {
+    font-weight: 700;
 }
