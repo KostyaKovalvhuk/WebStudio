@@ -43,3 +43,8 @@ body {
 .logo {
     font-weight: 700;
 }
+.conteiner {
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
