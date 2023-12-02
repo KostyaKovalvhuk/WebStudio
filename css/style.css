@@ -8,7 +8,9 @@ body {
     font-weight: 700;
 }
 
-.list-link {
+
+
+.{
     font-weight: 500;
 }
 
@@ -42,4 +44,9 @@ body {
 
 .logo {
     font-weight: 700;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
