@@ -1,21 +1,39 @@
 body {
     font-family: Roboto;
     line-height: 1.2;
+    
+}
+header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+ul {
+    t
 }
 
 .link {
     font-family: Raleway;
     font-weight: 700;
+    
 }
-
-
+.navigation {
+    display: flex;
+}
 
 .list-link{
     font-weight: 500;
+    display: flex;
+    list-style: none;
+    
+    
 }
 
 .header-items {
+    width: 1200px;
     font-weight: 500;
+    margin: 0 auto;
+    display: flex;
+    
 }
 
 .menu-title1 {
@@ -49,4 +67,11 @@ body {
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+.flex-header {
+    display: flex;
+}
+.flex-list {
+    display: flex;
+    justify-content: ;
 }
