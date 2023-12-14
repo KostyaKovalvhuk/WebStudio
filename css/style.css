@@ -3,37 +3,55 @@ body {
     line-height: 1.2;
     
 }
+.flex-header {
+    display: flex;
+    align-items: center;
+}
+
 header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
+.list-item {
+
+}
+
+
+
+.list-item + .list-item {
+margin-left: 50px;
+}
+
+a {
+ text-decoration: none;
+}
+
 ul {
-    t
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
     font-family: Raleway;
-    font-weight: 700;
-    
+    font-weight: 700; 
 }
+
 .navigation {
     display: flex;
 }
 
-.list-link{
+.menu-list{
     font-weight: 500;
     display: flex;
-    list-style: none;
-    
-    
+margin-left: 93px;
 }
 
 .header-items {
-    width: 1200px;
     font-weight: 500;
-    margin: 0 auto;
+    margin-left: auto;
     display: flex;
-    
 }
 
 .menu-title1 {
@@ -68,9 +86,7 @@ ul {
     width: 1200px;
     margin: 0 auto;
 }
-.flex-header {
-    display: flex;
-}
+
 .flex-list {
     display: flex;
     justify-content: ;
