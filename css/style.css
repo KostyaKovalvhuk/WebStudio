@@ -1,7 +1,7 @@
 body {
     font-family: Roboto;
-    line-height: 1.2;
-    
+    margin: 0;
+    padding: 0;
 }
 .flex-header {
     display: flex;
@@ -21,6 +21,63 @@ header {
 
 .list-item + .list-item {
 margin-left: 50px;
+}
+.flex {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.flex-list {
+display: flex;
+}
+
+.flex-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-list-images {
+    width: 270px;
+        height: 260px;
+        margin-top: 50px;
+        margin-right: 30px;
+}
+
+.img-list{
+display: flex;
+}
+
+.list-cards {
+    display: flex;
+}
+.card {
+    margin-right: 30px;
+    margin-bottom: 94px;
+    margin-top: 294px;
+}
+.list-text {
+    margin-top: 10px;
+}
+
+.flex-members {
+    display: flex;
+flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    display: flex;
+}
+.flex-footer   {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-list {
+    display: flex;
+    }
+.team-list-images {
+    margin-left: 30px;
 }
 
 a {
@@ -60,7 +117,15 @@ margin-left: 93px;
 
 .button {
     font-weight: 700;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    border-style: none;
+    color: white;
+    margin-top: 30px;
 }
+
 
 .menu-title3 {
     font-weight: 700;
@@ -78,8 +143,9 @@ margin-left: 93px;
     font-weight: 400;
 }
 
-.logo {
+.logo{
     font-weight: 700;
+    margin-top: 154px;
 }
 
 .container {
@@ -87,7 +153,24 @@ margin-left: 93px;
     margin: 0 auto;
 }
 
-.flex-list {
-    display: flex;
-    justify-content: ;
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+
+}
+h1 {
+   font-size: 44px;
+   width: 696px;
+   text-align: center;
+   margin-top: 225px;
+}
+h2 {
+    margin-top: 188px;
+}
+.footer-adress {
+    margin-top: 20px;
 }
