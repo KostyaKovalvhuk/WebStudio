@@ -174,3 +174,36 @@ h2 {
 .footer-adress {
     margin-top: 20px;
 }
+
+.card-img {
+    width: 370px;
+    height: 294px;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+    margin-bottom: 50px;
+}
+.filters-item {
+    margin-right: 52px;
+
+    
+}
+
+.cards {
+    
+}
+
+.cards-list   {
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   flex-basis: calc(100% / 3 - 30px );
+}
+
+.card{
+    column-gap: 30px;
+    margin-top: 50px;
+}
