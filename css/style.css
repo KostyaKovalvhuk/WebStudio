@@ -17,7 +17,22 @@ header {
 
 }
 
+.web-logo {
+    color: #2196F3;
+    line-height: normal;
+    font-weight: 700;
+    font-family: Raleway    ;
+    font-size: 26px;
+}
 
+.studio-logo {
+    color: #000;
+        font-family: Raleway;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
 
 .list-item + .list-item {
 margin-left: 50px;
@@ -143,10 +158,6 @@ margin-left: 93px;
     font-weight: 400;
 }
 
-.logo{
-    font-weight: 700;
-    margin-top: 154px;
-}
 
 .container {
     width: 1200px;
