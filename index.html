@@ -23,22 +23,22 @@
             <ul class="menu-list">
 
                 <li class="list-item">
-                    <a href="./index.html">Студия</a>
+                    <a href="./index.html" class="item-link">Студия</a>
                 </li>
                 <li class="list-item">
-                    <a href="./portfolio.html">Портфолио</a>
+                    <a href="./portfolio.html" class="item-link">Портфолио</a>
                 </li>
                 <li class="list-item">
-                    <a href="#">Контакты</a>
+                    <a href="#" class="item-link">Контакты</a>
                 </li>
             </ul>
         </nav>
         <ul class="header-items">
             <li class="list-item">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
             </li>
             <li class="list-item">
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="tell">+38 096 111 11 11</a>
             </li>
         
         </ul>
@@ -46,11 +46,14 @@
        
     </header>
     <main>
-        <section class="container flex">
+        <section class="hero">
+            <div class="container">
             <h1 class="menu-title1">Эффективные решения для вашего бизнеса</h1>
             <button type="button" class="button">Заказать услугу</button>
+            </div>
         </section>
-        <section class="container flex-list">
+        <section class="flex-list">
+            <div class="container">
             <ul class="list-cards">
                 <li class="card">
                     <h3 class="menu-title3">Внимание к деталям</h3>
@@ -72,9 +75,11 @@
                     <p class="list-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                     </p>
                 </li>
-
+            </ul>
+            </div>
         </section>
-        <section class="container flex-img">
+        <section class="flex-img">
+            <div class="container">
             <h2 class="menu-title2">Чем мы занимаемся</h2>
             <ul class="img-list">
                 <li><img src="./images/keyboard.jpg" alt="" class="img-list-images"></li>
@@ -82,48 +87,54 @@
                 <li><img src="./images/smartphone.jpg" alt="" class="img-list-images"></li>
 
                 <li><img src="./images/tablet.jpg" alt="" class="img-list-images"></li>
-            
-
             </ul>
+            </div>
         </section>
-        <section class="container flex-members">
-
+        <section class="flex-members">
+            <div class="container">
             <h2>Наша команда</h2>
             <ul class="team-list">
-                <li><img src="./images/d.jpg" alt="учасники команди" style="height: 260px;width: 270px;" class="team-list-images">
+                <li class="team-item">
+                    <img src="./images/d.jpg" alt="учасники команди" style="height: 260px;width: 270px;" class="team-list-images">
                     <h3 class="menu-title3">Игорь Демьяненко</h3>
                     <p class="list-text">Product Designer</p>
                 </li>
-
-                <li><img src="./images/e.jpg" alt="учасники команди" style="height: 260px;width: 270px;"  class="team-list-images">
+                <li class="team-item">
+                    <img src="./images/e.jpg" alt="учасники команди" style="height: 260px;width: 270px;"  class="team-list-images">
                     <h3 class="menu-title3">Ольга Репина</h3>
                     <p class="list-text">Frontend Developer</p>
                 </li>
-
-                <li><img src="./images/f.jpg" alt="учасники команди" style="height: 260px;width: 270px;"  class="team-list-images">
+                <li class="team-item">
+                    <img src="./images/f.jpg" alt="учасники команди" style="height: 260px;width: 270px;"  class="team-list-images">
                     <h3 class="menu-title3">Николай Тарасов</h3>
                     <p class="list-text">Marketing</p>
                 </li>
-
-                <li><img src="./images/j.jpg" alt="учасники команди" style="height: 260px;width: 270px;" class="team-list-images">
+                <li class="team-item">
+                    <img src="./images/j.jpg" alt="учасники команди" style="height: 260px;width: 270px;" class="team-list-images">
                     <h3 class="menu-title3">Михаил Ермаков</h3>
                     <p class="list-text">UI Designer</p>
                 </li>
-
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container flex-footer">
-    <a href="#" class="link"> <span class="web-logo">Web</span> <span class="studio-logo">Studio</span></a>
-        <ul class="footer-items">
-            <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
-            <li><a href="#">info@devstudio.com</a></li>
-            <li><a href="#">+38 096 111 11 11</a></li>
+    <a href="#" class="link"> 
+        <span class="web-logo">Web</span> <span class="studio-logo">Studio</span>
+        </a>
+            <address>
+                <p class="footer-adress">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul class="footer-contacts">
+            <li class="footer-contact">
+                <a href="#" class="footer-link">info@devstudio.com</a>
+            </li>
+            <li class="footer-contact">
+                <a href="#" class="footer-link">+38 096 111 11 11</a>
+            </li>
         </ul>
+        </address>
         </div>
-
     </footer>
 </body>
-
 </html>
