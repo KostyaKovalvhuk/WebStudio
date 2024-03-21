@@ -94,6 +94,7 @@ background-color: #2F303A;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
+margin-top: 95px;
 }
 
 .flex-list {
@@ -112,6 +113,7 @@ display: flex;
 
 .img-list{
 display: flex;
+column-gap: 30px;
 }
 
 .list-cards {
@@ -185,6 +187,13 @@ margin-left: 93px;
 .menu-title2 {
     font-weight: 700;
     margin-top: 94px;
+    text-align: center;
+}
+
+.menu-title2-2 {
+    text-align: center;
+    margin-top: 190px;
+    margin-bottom: 50px;
 }
 
 .footer-items {
