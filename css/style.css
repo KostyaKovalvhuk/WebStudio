@@ -94,7 +94,7 @@ background-color: #2F303A;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
-margin-top: 95px;
+margin-top: 30px;
 }
 
 .flex-list {
@@ -129,6 +129,7 @@ column-gap: 30px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
+margin-bottom: 124px;
 }
 
 .flex-members {
@@ -188,12 +189,14 @@ margin-left: 93px;
     font-weight: 700;
     margin-top: 94px;
     text-align: center;
+    font-size: 36px;
 }
 
 .menu-title2-2 {
     text-align: center;
     margin-top: 190px;
     margin-bottom: 50px;
+    font-size: 36px;
 }
 
 .footer-items {
