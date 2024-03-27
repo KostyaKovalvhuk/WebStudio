@@ -129,7 +129,7 @@ column-gap: 30px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
-margin-bottom: 124px;
+
 }
 
 .flex-members {
@@ -148,6 +148,7 @@ flex-direction: column;
 
 .team-list {
     display: flex;
+    padding-bottom: 124px;
     }
 .team-list-images {
     margin-left: 30px;
@@ -252,3 +253,9 @@ p{
    flex-basis: calc(100% / 3 - 30px );
 }
 
+.client {
+    font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: #212121;
+}
