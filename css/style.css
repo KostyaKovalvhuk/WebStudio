@@ -24,6 +24,11 @@ color: #212121;
     color: #2196f3;
 }
 
+.item-link:hover,.item-link:focus,.item-link::after {
+
+    border-bottom: 3px solid #2196f3;
+}
+
 .email,
 .tell {
 color: #757575;
@@ -326,5 +331,9 @@ top: 273px;
     position: relative;
         /* top: 0;
         left: 0; */
+
+}
+
+.card:hover {
 
 }
