@@ -22,11 +22,17 @@ color: #212121;
 
 .item-link:hover,.item-link:focus {
     color: #2196f3;
+      transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: initial;
 }
 
 .item-link:hover,.item-link:focus,.item-link::after {
 
     border-bottom: 3px solid #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: initial;
 }
 
 .email,
@@ -40,6 +46,10 @@ letter-spacing: 0.02em;
 .email:hover,.email:focus,
 .tell:hover,.tle:focus {
     color: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: initial;
+
 }
 
 .web-logo {
@@ -266,7 +276,7 @@ font-size: 14px;
 .cards-list   {
     display: flex;
     flex-wrap: wrap;
-   justify-content: center;
+justify-content: center;
    flex-basis: calc(100% / 3 - 30px );
 }
 
