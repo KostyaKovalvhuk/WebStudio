@@ -137,9 +137,12 @@ column-gap: 30px;
     display: flex;
     column-gap: 30px;
     padding-top: 95px;
+
 }
 .card {
-  
+  /* flex-basis: calc(100% - 90px / 3); */
+  flex-basis: calc(100% / 3 - 30px );
+
 }
 .list-text {
     margin-top: 10px;
@@ -159,6 +162,7 @@ flex-direction: column;
 
 .footer{
     display: flex;
+
 
 
 }
@@ -277,7 +281,7 @@ font-size: 14px;
     display: flex;
     flex-wrap: wrap;
 justify-content: center;
-   flex-basis: calc(100% / 3 - 30px );
+   
 }
 
 .client {
@@ -346,4 +350,10 @@ top: 273px;
 
 .card:hover {
 
+}
+
+.footer-adress-portfolio {
+   font-weight: 400;
+font-size: 14px;
+color: rgba(255, 255, 255, 0.6);
 }
