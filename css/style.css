@@ -336,6 +336,9 @@ padding-bottom: 20px;
 text-transform: uppercase;
 position: absolute;
 top: 273px;
+display: flex;
+    align-items: center;
+    justify-content: center;
 
 
 }
