@@ -71,6 +71,13 @@ letter-spacing: 0.02em;
 
 .list-item + .list-item {
 margin-left: 50px;
+font-weight: 500;
+font-size: 14px;
+color: #212121;
+}
+
+.list-item:hover {
+color: #2196f3;
 }
 
 .hero {
@@ -149,8 +156,6 @@ column-gap: 30px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #757575;
-text-align: center; 
-
 }
 
 .flex-members {
@@ -268,7 +273,10 @@ font-size: 14px;
 }
 .filters-item {
     margin-right: 52px;
-
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #212121;
     
 }
 
