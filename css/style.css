@@ -265,22 +265,62 @@ font-size: 14px;
     height: 294px;
 }
 
+.card-text   {
+    text-align: center;
+}
+
 .filters {
     display: flex;
     justify-content: center;
     margin-top: 82px;
     margin-bottom: 50px;
 }
+
+.filters-list {
+    display: flex;
+    padding-bottom: 50px;
+   justify-content: center;
+}
+
 .filters-item {
     margin-right: 52px;
 font-weight: 500;
 font-size: 16px;
-text-align: center;
 color: #212121;
+text-align: center
+
     
 }
 
+.filters-btn   {
+    border-radius: 0%;
 
+}
+
+.btn-1 {
+width: 73px;
+height: 38px;
+}
+
+.btn-2  {
+        width: 125px;
+height: 38px;
+}
+
+.btn-3 {
+    width: 112px;
+height: 38px;
+}
+
+.btn-4  {
+        width: 103px;
+height: 38px;
+}
+
+.btn-5 {
+    width: 130px;
+height: 38px;
+}
 
 .cards-list   {
     display: flex;
