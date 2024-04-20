@@ -272,9 +272,7 @@ font-size: 14px;
     
 }
 
-.cards {
-    
-}
+
 
 .cards-list   {
     display: flex;
@@ -305,10 +303,6 @@ font-size: 14px;
     margin: 0 auto;
 }
 
-.client {
-    
-}
-
 .svg-links {
     display: flex;
 /* padding-left: 80px; */
@@ -319,9 +313,8 @@ font-size: 14px;
  
 }
 
-.details {
-    
-}
+
+
 
 .working {
     font-weight: 700;
@@ -350,9 +343,7 @@ display: flex;
 
 }
 
-.card:hover {
 
-}
 
 .footer-adress-portfolio {
    font-weight: 400;
