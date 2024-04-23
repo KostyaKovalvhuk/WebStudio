@@ -74,10 +74,12 @@ margin-left: 50px;
 font-weight: 500;
 font-size: 14px;
 color: #212121;
+
 }
 
 .list-item:hover {
 color: #2196f3;
+
 }
 
 .hero {
@@ -287,10 +289,9 @@ font-size: 14px;
 font-weight: 500;
 font-size: 16px;
 color: #212121;
-text-align: center
-
-    
+text-align: center 
 }
+
 
 .filters-btn   {
     border-radius: 0%;
