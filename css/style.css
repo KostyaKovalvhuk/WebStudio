@@ -155,12 +155,20 @@ display: flex;
 column-gap: 30px;
 }
 
+.list-cards {
+    display: flex;
+    column-gap: 30px;
+padding-top: 90px;
+
+}
+
 .cards-list {
     display: flex;
     column-gap: 30px;
 
 
 }
+
 .card {
   flex-basis: calc(100% / 3 - 30px );
 }
