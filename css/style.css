@@ -77,7 +77,20 @@ color: #212121;
 
 }
 
+.list-items + .list-items {
+margin-left: 50px;
+font-weight: 500;
+font-size: 14px;
+color: #212121;
+
+}
+
 .list-item:hover {
+color: #2196f3;
+
+}
+
+.list-items:hover {
 color: #2196f3;
 
 }
@@ -142,15 +155,14 @@ display: flex;
 column-gap: 30px;
 }
 
-.list-cards {
+.cards-list {
     display: flex;
     column-gap: 30px;
-    padding-top: 95px;
+
 
 }
 .card {
   flex-basis: calc(100% / 3 - 30px );
-
 }
 .list-text {
     margin-top: 10px;
@@ -267,6 +279,10 @@ font-size: 14px;
     height: 294px;
 }
 
+.card-subtitle  {
+    text-align: center;
+}
+
 .card-text   {
     text-align: center;
 }
@@ -285,11 +301,22 @@ font-size: 14px;
 }
 
 .filters-item {
-    margin-right: 52px;
+    margin-right: 8px;
 font-weight: 500;
 font-size: 16px;
 color: #212121;
-text-align: center 
+text-align: center  
+}
+
+.filters-item:hover, .filters-item:focus {
+color: #fff;
+ box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+background: #2196f3;
+}
+
+button {
+
+    border: 0;
 }
 
 
@@ -298,30 +325,7 @@ text-align: center
 
 }
 
-.btn-1 {
-width: 73px;
-height: 38px;
-}
 
-.btn-2  {
-        width: 125px;
-height: 38px;
-}
-
-.btn-3 {
-    width: 112px;
-height: 38px;
-}
-
-.btn-4  {
-        width: 103px;
-height: 38px;
-}
-
-.btn-5 {
-    width: 130px;
-height: 38px;
-}
 
 .cards-list   {
     display: flex;
