@@ -387,8 +387,8 @@ width: 370px;
 height: 70px; 
 background: rgba(47, 48, 58, 0.8);
 text-align: center;
-padding-top: 35px;
-padding-bottom: 20px;
+/* padding-top: 35px;
+padding-bottom: 20px; */
 text-transform: uppercase;
 position: absolute;
 top: 273px;
