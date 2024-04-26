@@ -12,12 +12,12 @@ header {
     padding-top: 24px;
     padding-bottom: 25px;
 }
+
 .item-link {
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 color: #212121;
-
 }
 
 .item-link:hover,.item-link:focus {
@@ -28,7 +28,6 @@ color: #212121;
 }
 
 .item-link:hover,.item-link:focus,.item-link::after {
-
     border-bottom: 3px solid #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -49,7 +48,6 @@ letter-spacing: 0.02em;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: initial;
-
 }
 
 .web-logo {
@@ -74,7 +72,6 @@ margin-left: 50px;
 font-weight: 500;
 font-size: 14px;
 color: #212121;
-
 }
 
 .list-items + .list-items {
@@ -82,17 +79,14 @@ margin-left: 50px;
 font-weight: 500;
 font-size: 14px;
 color: #212121;
-
 }
 
 .list-item:hover {
 color: #2196f3;
-
 }
 
 .list-items:hover {
 color: #2196f3;
-
 }
 
 .hero {
