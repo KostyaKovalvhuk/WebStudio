@@ -394,5 +394,36 @@ margin-right: 30px;
 }
 
 .details {
-   margin-left: 90px;
+
+}
+
+.svg-box {
+    display: flex;
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+  justify-content: center;
+align-items: center;
+}
+
+.svg-box-client {
+    width: 170px;
+    height: 92px;
+    background-color: #F5F4FA;
+border: 1px solid #afb1b8;
+border-radius: 4px;
+}
+
+.client-svg {
+    fill: #AFB1B8;
+}
+
+.client-svg:hover,
+.client-svg:focus {
+    fill: #2196F3;
+}
+
+.icon-mail:hover,
+.icon-mail:focus {
+    fill: #2196F3;
 }
