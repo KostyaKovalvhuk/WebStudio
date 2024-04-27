@@ -161,6 +161,8 @@ padding-top: 90px;
 
 .card {
   flex-basis: calc(100% / 3 - 30px );
+  padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .list-text {
@@ -276,11 +278,10 @@ font-size: 14px;
 }
 
 .card-subtitle  {
-    text-align: center;
+    margin-bottom: 4px;
 }
 
 .card-text   {
-    text-align: center;
 }
 
 .filters {
@@ -322,7 +323,7 @@ button {
     display: flex;
     flex-wrap: wrap;
 justify-content: center;
-   
+   margin-bottom: 65px;
 }
 
 .client {
