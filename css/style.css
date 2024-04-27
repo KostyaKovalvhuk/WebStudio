@@ -92,7 +92,9 @@ color: #2196f3;
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-background-color: #2F303A;
+background-image: url(../images/background-img.png);
+background-repeat: no-repeat;
+background-size: 100%;
 }
 
 .menu-title1 {
