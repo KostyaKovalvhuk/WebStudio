@@ -223,6 +223,7 @@ ul {
     font-weight: 500;
     display: flex;
 margin-left: 93px;
+align-items: center;
 }
 
 .header-items {
