@@ -59,7 +59,7 @@
         <section class="hero">
             <div class="container main">
             <h1 class="menu-title1">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="button" >Заказать услугу</button>
+            <button type="button" class="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
         <section class="flex-list">
@@ -364,12 +364,65 @@
        
         </div>
     </footer>
-<div class="backdrop ishiden" data-modal>
-    <div class="modal">
+<div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <div class="close">
+          <button type="button" class="bth-close" data-modal-close>
+            <svg width="30" height="30" class="svg-close">
+              <use href="./icon/symbol-defs-2.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
 
+        <p class="order">Залиште свої дані, ми вам передзвонимо</p>
+        <ul class="order-list">
+          <li class="order-link">
+            <label for="name" class="order-label">Ім'я</label>
+            <svg width="18" height="18" class="icon-modal">
+              <use href="./icon/symbol-defs-2.svg#icon-human"></use>
+            </svg>
+            <input type="name" id="name" class="order-input" />
+          </li>
+
+          <li class="order-link">
+            <label for="phone" class="order-label">Телефон</label>
+            <svg width="18" height="18" class="icon-modal">
+              <use href="./icon/symbol-defs-2.svg#icon-tel"></use>
+            </svg>
+            <input type="tel" id="phone" class="order-input" />
+          </li>
+
+          <li class="order-link">
+            <label for="email" class="order-label">Пошта</label>
+            <svg width="18" height="18" class="icon-modal">
+              <use href="./icon/symbol-defs-2.svg#icon-main-black"></use>
+            </svg>
+            <input type="email" id="email" class="order-input" />
+          </li>
+
+          <li class="order-link">
+            <label for="comments" class="order-label">Коментар</label>
+            <input
+              type="text"
+              id="comments"
+              class="order-input"
+              placeholder="Введіть текст"
+            />
+          </li>
+        </ul>
+
+        <div class="agreement">
+          <input type="checkbox" class="checkbox" />
+          <p class="rights">
+            Погоджуюся з розсилкою та приймаю
+            <a href="#">
+              <span class="dogovor">Умови договору</span>
+            </a>
+          </p>
+        </div>
+
+        <button type="button" class="send">Відправити</button>
+      </div>
     </div>
-
-</div>
-  <script src="./js/modal.js"></script>
 </body>
 </html>
