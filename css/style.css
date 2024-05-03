@@ -149,6 +149,7 @@ padding-bottom: 94px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 95px;
 }
 
 .img-list-images {
@@ -191,8 +192,12 @@ text-align: center;
 flex-direction: column;
     align-items: center;
     background-color: #F5F4FA;
+    padding-bottom: 95px;
 }
 
+.clients-section {
+    padding-bottom: 95px;
+}
 
 .footer   {
 background-color: #2F303A;
@@ -498,4 +503,17 @@ body {
     position: relative;
 }
 
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+    opacity: 1;
+}
 
+.backdrop.ishiden {
+    opacity: 0;
+
+}
