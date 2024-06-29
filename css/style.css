@@ -1,3 +1,16 @@
+:root {
+  --mainfoot-color: #757575;
+  --webcolor: #2196f3;
+  --websize: 26px;
+  --studiocolor: #000;
+  --studiocolor2: #ffffff;
+  --backcolor: #2f303a;
+  --imgcolor: #f5f4fa;
+  --iconcolor: #afb1b8;
+  --footericoncolor: #44454e;
+  --close: #e5e5e5;
+}
+
 body {
   font-family: Roboto;
   margin: 0;
@@ -261,6 +274,51 @@ header {
 
 .footer-contact-info {
   font-style: normal;
+}
+
+.footer-subs-wrapper {
+  margin-left: 93px;
+  margin-top: 12px;
+}
+
+.footer-subs-title {
+  color: var(--studiocolor2);
+font-weight: 700;
+font-size: 14px;
+text-transform: uppercase;
+
+}
+
+
+
+.email-footer-input::placeholder {
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bth-footer {
+  display: inline-block;
+ border-radius: 4px;
+width: 200px;
+height: 50px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #2196f3;
+
+}
+
+.footer-form {
+
+}
+
+.email-footer-input{
+  margin-top: 20px;
+  height: 50px;
+  width: 360px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: rgba(33, 150, 243, 0);
 }
 
 .team-list {
@@ -550,7 +608,7 @@ button {
 body {
   overflow-x: hidden;
 }
-
+/* modal window */
 .backdrop {
   position: fixed;
   top: 0;
@@ -578,7 +636,7 @@ body {
   min-width: 528px;
   min-height: 581px;
   padding: 40px;
-  background-color: var(--studiocolor2);
+  background-color: #fff;
   transform: translate(-50%, -50%);
   border-radius: 4px;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
@@ -598,15 +656,15 @@ body {
   height: 30px;
   border: none;
   border-radius: 50%;
-  outline: 1px solid var(--close);
-  background-color: var(--studiocolor2);
+  outline: 1px solid #e5e5e5;
+  background-color: #fff;
   cursor: pointer;
 }
 
 .svg-close {
   position: absolute;
-  top: 9px;
-  left: 10px;
+  top: 6px;
+  left: 5px;
 }
 
 .svg-close:hover {
