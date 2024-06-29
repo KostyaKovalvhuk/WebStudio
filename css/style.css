@@ -39,41 +39,46 @@ color: #212121;
     transition-property: initial;
 }
 
-.email,
-.tell {
+.email {
 color: #757575;
 font-weight: 500;
 font-size: 14px;
 letter-spacing: 0.02em;
 }
 
+.icon-mail {
+    margin-right: 10px;
+}
+
 .email:hover .icon-mail {
     fill:#2196f3 ;
 }
 
-.email:hover,.email:focus,
-.tell:hover,.tle:focus {
+.email:hover,.email:focus {
     color: #2196f3;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: initial;
 }
 
-.web-logo {
-    color: #2196F3;
-    line-height: normal;
-    font-weight: 700;
-    font-family: Raleway    ;
-    font-size: 26px;
-}
-
-.studio-logo {
-    color: #000;
-        font-family: Raleway;
+.logo {
+    font-family: Raleway;
         font-size: 26px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+}
+
+.web-logo {
+    color: #2196F3;
+}
+
+.studio-logo {
+    color: #000;   
+}
+
+.studio-logo-f {
+     color: #fff;
 }
 
 .list-item + .list-item {
@@ -177,7 +182,6 @@ padding-top: 90px;
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
-
 .list-text {
     margin-top: 10px;
     font-size: 14px;
@@ -193,10 +197,12 @@ flex-direction: column;
     align-items: center;
     background-color: #F5F4FA;
     padding-bottom: 95px;
+    padding-top: 95px;
 }
 
 .clients-section {
     padding-bottom: 95px;
+    padding-top: 95px;
 }
 
 .footer   {
@@ -369,13 +375,35 @@ font-size: 14px;
     margin: 0 auto;
 }
 
-.svg-links {
+.svg-links-list {
     display: flex;
-padding-left: 74px;
+column-gap: 10px;
+justify-content: center;
+margin-top: 16px;
+margin-bottom: 30px;
 }
 
 .svg-link {
-    margin-right: 14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cosial-icon {
+    fill: #AFB1B8;
+}
+
+.svg-link:hover,
+.svg-link:focus {
+    background-color: #2196f3;
+    
+}
+
+.svg-link:hover .cosial-icon {
+    fill: #fff;
 }
 
 .working {
@@ -435,12 +463,17 @@ align-items: center;
 justify-content: center;
 }
 
+.client:hover {
+    border-color: #2196F3;
+}
+
 .client-title   {
     text-align: center;
 font-weight: 700;
 font-size: 36px;
 color: #212121;
 margin-bottom: 50px;
+
 }
 
 .client-svg {
