@@ -208,6 +208,19 @@ flex-direction: column;
 .footer   {
 background-color: #2F303A;
 padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.footer-contacts {
+margin-top: 9px;
+}
+
+.footer-contact + .footer-contact {
+    margin-top: 9px;
+}
+
+.footer-contact-info {
+    font-style: normal;
 }
 
 .team-list {
