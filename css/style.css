@@ -298,13 +298,15 @@ text-transform: uppercase;
 }
 
 .bth-footer {
-  display: inline-block;
- border-radius: 4px;
-width: 200px;
-height: 50px;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-background: #2196f3;
-
+margin-left: 12px;
+    width: 200px;
+    padding: 10px 32px;
+    background-color: #2196f3;
+    color: #fff;
+    border-radius: 4px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
 }
 
 .footer-form {
@@ -715,6 +717,11 @@ input[type="email"] {
   position: absolute;
   top: 32px;
   left: 2%;
+  
+}
+
+.icon-modal:hover {
+  fill: #2196f3;
 }
 
 .order-link:hover .icon-modal {
