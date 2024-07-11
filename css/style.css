@@ -54,13 +54,14 @@ header {
 
 .email {
   color: #757575;
-  font-weight: 500;
+  font-weight: 500; 
   font-size: 14px;
   letter-spacing: 0.02em;
 }
 
 .icon-mail {
   margin-right: 10px;
+    
 }
 
 .email:hover .icon-mail {
