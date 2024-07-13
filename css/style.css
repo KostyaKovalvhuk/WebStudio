@@ -60,8 +60,7 @@ header {
 }
 
 .icon-mail {
-  margin-right: 10px;
-    
+  margin-right: 10px;   
 }
 
 .email:hover .icon-mail {
@@ -74,7 +73,7 @@ header {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: initial;
-}
+} 
 
 .logo {
   font-family: Raleway;
