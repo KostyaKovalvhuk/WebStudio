@@ -168,7 +168,16 @@ top: 45px;
   text-transform: uppercase;
   color: #212121;
   margin-top: 30px;
-  text-align: center;
+}
+
+.menu-title3-2{
+   font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-top: 30px;
+ text-align: center;
 }
 
 .flex-list {
@@ -210,6 +219,14 @@ top: 45px;
 }
 .list-text {
   margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.list-text-2{
+    margin-top: 10px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -345,6 +362,8 @@ background: rgba(33, 150, 243, 0);
   display: flex;
   column-gap: 30px;
 }
+
+
 
 .team-list-images {
 }
