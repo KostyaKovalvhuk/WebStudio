@@ -34,14 +34,12 @@ header {
   letter-spacing: 0.02em;
   color: #212121;
   position: relative;
+  transition: color 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .item-link:hover,
 .item-link:focus {
   color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: initial;
 }
 
 .item-link:hover::after{
@@ -65,18 +63,20 @@ top: 45px;
 } */
 
 .email {
-  color: #757575;
+  color: var(--mainfoot-color);
   font-weight: 500; 
   font-size: 14px;
   letter-spacing: 0.02em;
 }
 
 .icon-mail {
-  margin-right: 10px;   
+  margin-right: 10px;  
+  fill: var(--mainfoot-color);
 }
 
 .email:hover .icon-mail {
   fill: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .email:hover,
@@ -88,7 +88,7 @@ top: 45px;
 } 
 
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
@@ -132,7 +132,7 @@ top: 45px;
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(../images/background-img.png);
+  background-image:url(../images/overlay.png), url(../images/background-img.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -159,6 +159,7 @@ top: 45px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 4px;
 }
 
 .menu-title3 {
@@ -184,6 +185,8 @@ top: 45px;
   display: flex;
   padding-bottom: 94px;
 }
+
+
 
 .flex-img {
   display: flex;
@@ -266,6 +269,7 @@ top: 45px;
   align-items: center;
   justify-content: center; 
   background-color: #44454e; 
+    transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-link-footer:hover,
@@ -274,9 +278,11 @@ top: 45px;
 }
 .svg-link-footer:hover .cosial-icon-footer {
     fill: #fff;
+
 }
 .cosial-icon-footer{
     fill: #fff;
+      
 }
 
 .footer-socials-title {
@@ -546,10 +552,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .cosial-icon {
   fill: #afb1b8;
+ transition: fill 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-link:hover,
@@ -559,6 +567,7 @@ button {
 
 .svg-link:hover .cosial-icon {
   fill: #fff;
+  
 }
 
 .working {
@@ -615,6 +624,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+   transition: border-color 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client:hover {
@@ -631,6 +641,7 @@ button {
 
 .client-svg {
   fill: #afb1b8;
+   transition: fill 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-svg:hover,
